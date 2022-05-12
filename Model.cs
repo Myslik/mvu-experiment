@@ -2,12 +2,6 @@ namespace Mvu.Experiment;
 
 public class Model
 {
-    public Model(int count, int stepSize)
-    {
-        Count = count;
-        StepSize = stepSize;
-    }
-
-    public int Count { get; }
-    public int StepSize { get; }
+    public int Count { get; init; }
+    public int StepSize { get; init; }
 }
